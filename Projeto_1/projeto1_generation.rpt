@@ -1,0 +1,182 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/altera/13.1/Projeto_1/ --output-directory=C:/altera/13.1/Projeto_1/projeto1/ --report-file=bsf:C:/altera/13.1/Projeto_1/projeto1.bsf --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C25F324C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:/altera/13.1/Projeto_1/projeto1.qsys
+Progress: Loading Projeto_1/projeto1.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding botaoSubir [altera_avalon_pio 13.1]
+Progress: Parameterizing module botaoSubir
+Progress: Adding botaoDescer [altera_avalon_pio 13.1]
+Progress: Parameterizing module botaoDescer
+Progress: Adding botaoSelecionar [altera_avalon_pio 13.1]
+Progress: Parameterizing module botaoSelecionar
+Progress: Adding botaoVoltar [altera_avalon_pio 13.1]
+Progress: Parameterizing module botaoVoltar
+Progress: Adding ledOpcao1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao1
+Progress: Adding ledOpcao2 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao2
+Progress: Adding ledOpcao3 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao3
+Progress: Adding ledOpcao4 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao4
+Progress: Adding ledOpcao5 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao5
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: projeto1.botaoSubir: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projeto1.botaoDescer: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projeto1.botaoSelecionar: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projeto1.botaoVoltar: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/altera/13.1/Projeto_1/ --output-directory=C:/altera/13.1/Projeto_1/projeto1/synthesis/ --file-set=QUARTUS_SYNTH --report-file=html:C:/altera/13.1/Projeto_1/projeto1.html --report-file=sopcinfo:C:/altera/13.1/Projeto_1/projeto1.sopcinfo --report-file=cmp:C:/altera/13.1/Projeto_1/projeto1.cmp --report-file=qip:C:/altera/13.1/Projeto_1/projeto1/synthesis/projeto1.qip --report-file=svd --report-file=regmap:C:/altera/13.1/Projeto_1/projeto1/synthesis/projeto1.regmap --report-file=debuginfo:C:/altera/13.1/Projeto_1/projeto1/synthesis/projeto1.debuginfo --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C25F324C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:/altera/13.1/Projeto_1/projeto1.qsys --language=VERILOG
+Progress: Loading Projeto_1/projeto1.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding botaoSubir [altera_avalon_pio 13.1]
+Progress: Parameterizing module botaoSubir
+Progress: Adding botaoDescer [altera_avalon_pio 13.1]
+Progress: Parameterizing module botaoDescer
+Progress: Adding botaoSelecionar [altera_avalon_pio 13.1]
+Progress: Parameterizing module botaoSelecionar
+Progress: Adding botaoVoltar [altera_avalon_pio 13.1]
+Progress: Parameterizing module botaoVoltar
+Progress: Adding ledOpcao1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao1
+Progress: Adding ledOpcao2 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao2
+Progress: Adding ledOpcao3 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao3
+Progress: Adding ledOpcao4 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao4
+Progress: Adding ledOpcao5 [altera_avalon_pio 13.1]
+Progress: Parameterizing module ledOpcao5
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: projeto1.botaoSubir: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projeto1.botaoDescer: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projeto1.botaoSelecionar: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projeto1.botaoVoltar: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projeto1: Generating projeto1 "projeto1" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 12 modules, 35 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 12 modules, 35 connections
+Info: merlin_translator_transform: After transform: 25 modules, 74 connections
+Info: merlin_domain_transform: After transform: 50 modules, 207 connections
+Info: merlin_router_transform: After transform: 63 modules, 246 connections
+Info: merlin_network_to_switch_transform: After transform: 88 modules, 298 connections
+Info: merlin_clock_and_reset_bridge_transform: After transform: 90 modules, 387 connections
+Info: merlin_hierarchy_transform: After transform: 13 modules, 37 connections
+Info: merlin_mm_transform: After transform: 13 modules, 37 connections
+Info: merlin_interrupt_mapper_transform: After transform: 14 modules, 40 connections
+Info: reset_adaptation_transform: After transform: 16 modules, 54 connections
+Info: nios2_qsys_0: Starting RTL generation for module 'projeto1_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec C:/altera/13.1/quartus/bin/eperlcmd.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=projeto1_nios2_qsys_0 --dir=C:/Users/vanessa/AppData/Local/Temp/alt7790_1277346148228444334.dir/0001_nios2_qsys_0_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7790_1277346148228444334.dir/0001_nios2_qsys_0_gen//projeto1_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0  ]
+Info: nios2_qsys_0: # 2018.09.16 11:16:20 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2018.09.16 11:16:20 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2018.09.16 11:16:34 (*)   Couldn't query license setup in Quartus directory C:/altera/13.1/quartus
+Info: nios2_qsys_0: # 2018.09.16 11:16:34 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2018.09.16 11:16:34 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2018.09.16 11:16:34 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2018.09.16 11:16:34 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2018.09.16 11:16:34 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2018.09.16 11:16:34 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2018.09.16 11:16:37 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2018.09.16 11:16:37 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2018.09.16 11:16:40 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'projeto1_nios2_qsys_0'
+Info: nios2_qsys_0: "projeto1" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'projeto1_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=projeto1_onchip_memory2_0 --dir=C:/Users/vanessa/AppData/Local/Temp/alt7790_1277346148228444334.dir/0002_onchip_memory2_0_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7790_1277346148228444334.dir/0002_onchip_memory2_0_gen//projeto1_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'projeto1_onchip_memory2_0'
+Info: onchip_memory2_0: "projeto1" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: botaoSubir: Starting RTL generation for module 'projeto1_botaoSubir'
+Info: botaoSubir:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=projeto1_botaoSubir --dir=C:/Users/vanessa/AppData/Local/Temp/alt7790_1277346148228444334.dir/0003_botaoSubir_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7790_1277346148228444334.dir/0003_botaoSubir_gen//projeto1_botaoSubir_component_configuration.pl  --do_build_sim=0  ]
+Info: botaoSubir: Done RTL generation for module 'projeto1_botaoSubir'
+Info: botaoSubir: "projeto1" instantiated altera_avalon_pio "botaoSubir"
+Info: ledOpcao1: Starting RTL generation for module 'projeto1_ledOpcao1'
+Info: ledOpcao1:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=projeto1_ledOpcao1 --dir=C:/Users/vanessa/AppData/Local/Temp/alt7790_1277346148228444334.dir/0004_ledOpcao1_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7790_1277346148228444334.dir/0004_ledOpcao1_gen//projeto1_ledOpcao1_component_configuration.pl  --do_build_sim=0  ]
+Info: ledOpcao1: Done RTL generation for module 'projeto1_ledOpcao1'
+Info: ledOpcao1: "projeto1" instantiated altera_avalon_pio "ledOpcao1"
+Info: pipeline_bridge_swap_transform: After transform: 78 modules, 264 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 78 modules, 264 connections
+Info: mm_interconnect_0: "projeto1" instantiated altera_merlin_interconnect_wrapper "mm_interconnect_0"
+Info: irq_mapper: "projeto1" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "projeto1" instantiated altera_reset_controller "rst_controller"
+Info: nios2_qsys_0_instruction_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_0_instruction_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "mm_interconnect_0" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "mm_interconnect_0" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "mm_interconnect_0" instantiated altera_merlin_router "id_router"
+Info: id_router_002: "mm_interconnect_0" instantiated altera_merlin_router "id_router_002"
+Info: cmd_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux_002"
+Info: Reusing file C:/altera/13.1/Projeto_1/projeto1/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/altera/13.1/Projeto_1/projeto1/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/altera/13.1/Projeto_1/projeto1/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: projeto1: Done "projeto1" with 24 modules, 38 files, 1091609 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
