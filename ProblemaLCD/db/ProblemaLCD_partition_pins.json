@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "conexaolcd_0_enableconduit_1_writeresponsevalid_n",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_palavraconduit_readdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_palavraconduit_readdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_palavraconduit_readdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_palavraconduit_readdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_palavraconduit_readdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_palavraconduit_readdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_palavraconduit_readdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_palavraconduit_readdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_rsconduit_writeresponsevalid_n",
+					"strict" : false
+				},
+				{
+					"name" : "conexaolcd_0_rwconduit_writeresponsevalid_n",
+					"strict" : false
+				},
+				{
+					"name" : "ledazul_external_connection_export",
+					"strict" : false
+				},
+				{
+					"name" : "ledverde_external_connection_export",
+					"strict" : false
+				},
+				{
+					"name" : "ledvermelho_external_connection_export",
+					"strict" : false
+				},
+				{
+					"name" : "clk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "botaodescer_external_connection_export",
+					"strict" : false
+				},
+				{
+					"name" : "botaosubir_external_connection_export",
+					"strict" : false
+				},
+				{
+					"name" : "botaovoltar_external_connection_export",
+					"strict" : false
+				},
+				{
+					"name" : "botaoentrar_external_connection_export",
+					"strict" : false
+				},
+				{
+					"name" : "reset_reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

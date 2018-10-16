@@ -1,0 +1,18 @@
+	component problemaLCD is
+		port (
+			botaodescer_external_connection_export            : in  std_logic                    := 'X'; -- export
+			botaoentrar_external_connection_export            : in  std_logic                    := 'X'; -- export
+			botaosubir_external_connection_export             : in  std_logic                    := 'X'; -- export
+			botaovoltar_external_connection_export            : in  std_logic                    := 'X'; -- export
+			clk_clk                                           : in  std_logic                    := 'X'; -- clk
+			conexaolcd_0_enableconduit_1_writeresponsevalid_n : out std_logic;                           -- writeresponsevalid_n
+			conexaolcd_0_palavraconduit_readdata              : out std_logic_vector(7 downto 0);        -- readdata
+			conexaolcd_0_rsconduit_writeresponsevalid_n       : out std_logic;                           -- writeresponsevalid_n
+			conexaolcd_0_rwconduit_writeresponsevalid_n       : out std_logic;                           -- writeresponsevalid_n
+			ledazul_external_connection_export                : out std_logic;                           -- export
+			ledverde_external_connection_export               : out std_logic;                           -- export
+			ledvermelho_external_connection_export            : out std_logic;                           -- export
+			reset_reset_n                                     : in  std_logic                    := 'X'  -- reset_n
+		);
+	end component problemaLCD;
+

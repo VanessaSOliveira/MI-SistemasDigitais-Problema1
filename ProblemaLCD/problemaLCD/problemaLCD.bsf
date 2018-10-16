@@ -1,0 +1,180 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 688 584)
+	(text "problemaLCD" (rect 305 -1 361 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 568 20 580)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "botaodescer_external_connection_export" (rect 0 0 162 12)(font "Arial" (font_size 8)))
+		(text "botaodescer_external_connection_export" (rect 4 61 232 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 288 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "botaoentrar_external_connection_export" (rect 0 0 159 12)(font "Arial" (font_size 8)))
+		(text "botaoentrar_external_connection_export" (rect 4 101 232 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 288 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "botaosubir_external_connection_export" (rect 0 0 154 12)(font "Arial" (font_size 8)))
+		(text "botaosubir_external_connection_export" (rect 4 141 226 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 288 152)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "botaovoltar_external_connection_export" (rect 0 0 158 12)(font "Arial" (font_size 8)))
+		(text "botaovoltar_external_connection_export" (rect 4 181 232 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 288 192)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 221 46 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 288 232)(line_width 1))
+	)
+	(port
+		(pt 0 552)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 541 82 552)(font "Arial" (font_size 8)))
+		(line (pt 0 552)(pt 288 552)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(output)
+		(text "conexaolcd_0_enableconduit_1_writeresponsevalid_n" (rect 0 0 210 12)(font "Arial" (font_size 8)))
+		(text "conexaolcd_0_enableconduit_1_writeresponsevalid_n" (rect 4 261 298 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 288 272)(line_width 1))
+	)
+	(port
+		(pt 0 312)
+		(output)
+		(text "conexaolcd_0_palavraconduit_readdata[7..0]" (rect 0 0 177 12)(font "Arial" (font_size 8)))
+		(text "conexaolcd_0_palavraconduit_readdata[7..0]" (rect 4 301 256 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 288 312)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(output)
+		(text "conexaolcd_0_rsconduit_writeresponsevalid_n" (rect 0 0 184 12)(font "Arial" (font_size 8)))
+		(text "conexaolcd_0_rsconduit_writeresponsevalid_n" (rect 4 341 262 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 288 352)(line_width 1))
+	)
+	(port
+		(pt 0 392)
+		(output)
+		(text "conexaolcd_0_rwconduit_writeresponsevalid_n" (rect 0 0 185 12)(font "Arial" (font_size 8)))
+		(text "conexaolcd_0_rwconduit_writeresponsevalid_n" (rect 4 381 262 392)(font "Arial" (font_size 8)))
+		(line (pt 0 392)(pt 288 392)(line_width 1))
+	)
+	(port
+		(pt 0 432)
+		(output)
+		(text "ledazul_external_connection_export" (rect 0 0 139 12)(font "Arial" (font_size 8)))
+		(text "ledazul_external_connection_export" (rect 4 421 208 432)(font "Arial" (font_size 8)))
+		(line (pt 0 432)(pt 288 432)(line_width 1))
+	)
+	(port
+		(pt 0 472)
+		(output)
+		(text "ledverde_external_connection_export" (rect 0 0 148 12)(font "Arial" (font_size 8)))
+		(text "ledverde_external_connection_export" (rect 4 461 214 472)(font "Arial" (font_size 8)))
+		(line (pt 0 472)(pt 288 472)(line_width 1))
+	)
+	(port
+		(pt 0 512)
+		(output)
+		(text "ledvermelho_external_connection_export" (rect 0 0 162 12)(font "Arial" (font_size 8)))
+		(text "ledvermelho_external_connection_export" (rect 4 501 232 512)(font "Arial" (font_size 8)))
+		(line (pt 0 512)(pt 288 512)(line_width 1))
+	)
+	(drawing
+		(text "botaodescer_external_connection" (rect 95 43 376 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 293 67 622 144)(font "Arial" (color 0 0 0)))
+		(text "botaoentrar_external_connection" (rect 99 83 384 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 293 107 622 224)(font "Arial" (color 0 0 0)))
+		(text "botaosubir_external_connection" (rect 105 123 390 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 293 147 622 304)(font "Arial" (color 0 0 0)))
+		(text "botaovoltar_external_connection" (rect 102 163 390 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 293 187 622 384)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 273 203 564 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 293 227 604 464)(font "Arial" (color 0 0 0)))
+		(text "conexaolcd_0_enableconduit_1" (rect 111 243 390 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "writeresponsevalid_n" (rect 293 267 706 544)(font "Arial" (color 0 0 0)))
+		(text "conexaolcd_0_palavraconduit" (rect 120 283 402 579)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "readdata" (rect 293 307 634 624)(font "Arial" (color 0 0 0)))
+		(text "conexaolcd_0_rsconduit" (rect 150 323 432 659)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "writeresponsevalid_n" (rect 293 347 706 704)(font "Arial" (color 0 0 0)))
+		(text "conexaolcd_0_rwconduit" (rect 147 363 426 739)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "writeresponsevalid_n" (rect 293 387 706 784)(font "Arial" (color 0 0 0)))
+		(text "ledazul_external_connection" (rect 126 403 414 819)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 293 427 622 864)(font "Arial" (color 0 0 0)))
+		(text "ledverde_external_connection" (rect 117 443 402 899)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 293 467 622 944)(font "Arial" (color 0 0 0)))
+		(text "ledvermelho_external_connection" (rect 96 483 378 979)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 293 507 622 1024)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 259 523 548 1059)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 293 547 628 1104)(font "Arial" (color 0 0 0)))
+		(text " problemaLCD " (rect 626 568 1330 1146)(font "Arial" ))
+		(line (pt 288 32)(pt 400 32)(line_width 1))
+		(line (pt 400 32)(pt 400 568)(line_width 1))
+		(line (pt 288 568)(pt 400 568)(line_width 1))
+		(line (pt 288 32)(pt 288 568)(line_width 1))
+		(line (pt 289 52)(pt 289 76)(line_width 1))
+		(line (pt 290 52)(pt 290 76)(line_width 1))
+		(line (pt 289 92)(pt 289 116)(line_width 1))
+		(line (pt 290 92)(pt 290 116)(line_width 1))
+		(line (pt 289 132)(pt 289 156)(line_width 1))
+		(line (pt 290 132)(pt 290 156)(line_width 1))
+		(line (pt 289 172)(pt 289 196)(line_width 1))
+		(line (pt 290 172)(pt 290 196)(line_width 1))
+		(line (pt 289 212)(pt 289 236)(line_width 1))
+		(line (pt 290 212)(pt 290 236)(line_width 1))
+		(line (pt 289 252)(pt 289 276)(line_width 1))
+		(line (pt 290 252)(pt 290 276)(line_width 1))
+		(line (pt 289 292)(pt 289 316)(line_width 1))
+		(line (pt 290 292)(pt 290 316)(line_width 1))
+		(line (pt 289 332)(pt 289 356)(line_width 1))
+		(line (pt 290 332)(pt 290 356)(line_width 1))
+		(line (pt 289 372)(pt 289 396)(line_width 1))
+		(line (pt 290 372)(pt 290 396)(line_width 1))
+		(line (pt 289 412)(pt 289 436)(line_width 1))
+		(line (pt 290 412)(pt 290 436)(line_width 1))
+		(line (pt 289 452)(pt 289 476)(line_width 1))
+		(line (pt 290 452)(pt 290 476)(line_width 1))
+		(line (pt 289 492)(pt 289 516)(line_width 1))
+		(line (pt 290 492)(pt 290 516)(line_width 1))
+		(line (pt 289 532)(pt 289 556)(line_width 1))
+		(line (pt 290 532)(pt 290 556)(line_width 1))
+		(line (pt 0 0)(pt 688 0)(line_width 1))
+		(line (pt 688 0)(pt 688 584)(line_width 1))
+		(line (pt 0 584)(pt 688 584)(line_width 1))
+		(line (pt 0 0)(pt 0 584)(line_width 1))
+	)
+)

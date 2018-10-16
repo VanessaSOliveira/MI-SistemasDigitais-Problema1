@@ -1,0 +1,159 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\intelFPGA_lite\18.1\ProblemaLCD\problemaLCD.qsys --block-symbol-file --output-directory=C:\intelFPGA_lite\18.1\ProblemaLCD\problemaLCD --family="Cyclone IV E" --part=EP4CE30F23C7
+Progress: Loading ProblemaLCD/problemaLCD.qsys
+Progress: Reading input file
+Progress: Adding BotaoDescer [altera_avalon_pio 18.1]
+Progress: Parameterizing module BotaoDescer
+Progress: Adding BotaoEntrar [altera_avalon_pio 18.1]
+Progress: Parameterizing module BotaoEntrar
+Progress: Adding BotaoSubir [altera_avalon_pio 18.1]
+Progress: Parameterizing module BotaoSubir
+Progress: Adding BotaoVoltar [altera_avalon_pio 18.1]
+Progress: Parameterizing module BotaoVoltar
+Progress: Adding ConexaoLCD_0 [ConexaoLCD 1.0]
+Progress: Parameterizing module ConexaoLCD_0
+Progress: Adding LedAzul [altera_avalon_pio 18.1]
+Progress: Parameterizing module LedAzul
+Progress: Adding LedVerde [altera_avalon_pio 18.1]
+Progress: Parameterizing module LedVerde
+Progress: Adding LedVermelho [altera_avalon_pio 18.1]
+Progress: Parameterizing module LedVermelho
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_qsys_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: problemaLCD.BotaoDescer: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: problemaLCD.BotaoEntrar: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: problemaLCD.BotaoSubir: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: problemaLCD.BotaoVoltar: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: problemaLCD.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\intelFPGA_lite\18.1\ProblemaLCD\problemaLCD.qsys --synthesis=VERILOG --output-directory=C:\intelFPGA_lite\18.1\ProblemaLCD\problemaLCD\synthesis --family="Cyclone IV E" --part=EP4CE30F23C7
+Progress: Loading ProblemaLCD/problemaLCD.qsys
+Progress: Reading input file
+Progress: Adding BotaoDescer [altera_avalon_pio 18.1]
+Progress: Parameterizing module BotaoDescer
+Progress: Adding BotaoEntrar [altera_avalon_pio 18.1]
+Progress: Parameterizing module BotaoEntrar
+Progress: Adding BotaoSubir [altera_avalon_pio 18.1]
+Progress: Parameterizing module BotaoSubir
+Progress: Adding BotaoVoltar [altera_avalon_pio 18.1]
+Progress: Parameterizing module BotaoVoltar
+Progress: Adding ConexaoLCD_0 [ConexaoLCD 1.0]
+Progress: Parameterizing module ConexaoLCD_0
+Progress: Adding LedAzul [altera_avalon_pio 18.1]
+Progress: Parameterizing module LedAzul
+Progress: Adding LedVerde [altera_avalon_pio 18.1]
+Progress: Parameterizing module LedVerde
+Progress: Adding LedVermelho [altera_avalon_pio 18.1]
+Progress: Parameterizing module LedVermelho
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_qsys_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: problemaLCD.BotaoDescer: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: problemaLCD.BotaoEntrar: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: problemaLCD.BotaoSubir: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: problemaLCD.BotaoVoltar: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: problemaLCD.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: problemaLCD: Generating problemaLCD "problemaLCD" for QUARTUS_SYNTH
+Warning: problemaLCD: "No matching role found for nios2_qsys_0:custom_instruction_master:E_ci_multi_clock (clk)"
+Warning: problemaLCD: "No matching role found for nios2_qsys_0:custom_instruction_master:E_ci_multi_reset_req (reset_req)"
+Warning: problemaLCD: "No matching role found for nios2_qsys_0:custom_instruction_master:E_ci_multi_reset (reset)"
+Warning: problemaLCD: "No matching role found for ConexaoLCD_0:nios_custom_instruction_slave_1:clk_en (clk_en)"
+Warning: problemaLCD: "No matching role found for ConexaoLCD_0:nios_custom_instruction_slave_1:start (start)"
+Warning: problemaLCD: "No matching role found for ConexaoLCD_0:nios_custom_instruction_slave_1:done (done)"
+Info: BotaoDescer: Starting RTL generation for module 'problemaLCD_BotaoDescer'
+Info: BotaoDescer:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=problemaLCD_BotaoDescer --dir=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0003_BotaoDescer_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0003_BotaoDescer_gen//problemaLCD_BotaoDescer_component_configuration.pl  --do_build_sim=0  ]
+Info: BotaoDescer: Done RTL generation for module 'problemaLCD_BotaoDescer'
+Info: BotaoDescer: "problemaLCD" instantiated altera_avalon_pio "BotaoDescer"
+Info: ConexaoLCD_0: "problemaLCD" instantiated ConexaoLCD "ConexaoLCD_0"
+Info: LedAzul: Starting RTL generation for module 'problemaLCD_LedAzul'
+Info: LedAzul:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=problemaLCD_LedAzul --dir=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0005_LedAzul_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0005_LedAzul_gen//problemaLCD_LedAzul_component_configuration.pl  --do_build_sim=0  ]
+Info: LedAzul: Done RTL generation for module 'problemaLCD_LedAzul'
+Info: LedAzul: "problemaLCD" instantiated altera_avalon_pio "LedAzul"
+Info: jtag_uart_0: Starting RTL generation for module 'problemaLCD_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=problemaLCD_jtag_uart_0 --dir=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0006_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0006_jtag_uart_0_gen//problemaLCD_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'problemaLCD_jtag_uart_0'
+Info: jtag_uart_0: "problemaLCD" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_qsys_0: "problemaLCD" instantiated altera_nios2_gen2 "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'problemaLCD_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=problemaLCD_onchip_memory2_0 --dir=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0007_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0007_onchip_memory2_0_gen//problemaLCD_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'problemaLCD_onchip_memory2_0'
+Info: onchip_memory2_0: "problemaLCD" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: nios2_qsys_0_custom_instruction_master_translator: "problemaLCD" instantiated altera_customins_master_translator "nios2_qsys_0_custom_instruction_master_translator"
+Info: nios2_qsys_0_custom_instruction_master_comb_xconnect: "problemaLCD" instantiated altera_customins_xconnect "nios2_qsys_0_custom_instruction_master_comb_xconnect"
+Info: nios2_qsys_0_custom_instruction_master_comb_slave_translator0: "problemaLCD" instantiated altera_customins_slave_translator "nios2_qsys_0_custom_instruction_master_comb_slave_translator0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "problemaLCD" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "problemaLCD" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "problemaLCD" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'problemaLCD_nios2_qsys_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=problemaLCD_nios2_qsys_0_cpu --dir=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0013_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/vanessa/AppData/Local/Temp/alt7820_9172527659799765402.dir/0013_cpu_gen//problemaLCD_nios2_qsys_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2018.10.16 16:21:12 (*) Starting Nios II generation
+Info: cpu: # 2018.10.16 16:21:12 (*)   Checking for plaintext license.
+Info: cpu: # 2018.10.16 16:21:19 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2018.10.16 16:21:19 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2018.10.16 16:21:19 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2018.10.16 16:21:20 (*)   Plaintext license not found.
+Info: cpu: # 2018.10.16 16:21:20 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2018.10.16 16:21:20 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2018.10.16 16:21:20 (*)   Creating all objects for CPU
+Info: cpu: # 2018.10.16 16:21:22 (*)   Generating RTL from CPU objects
+Info: cpu: # 2018.10.16 16:21:22 (*)   Creating plain-text RTL
+Info: cpu: # 2018.10.16 16:21:24 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'problemaLCD_nios2_qsys_0_cpu'
+Info: cpu: "nios2_qsys_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_qsys_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_qsys_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_003"
+Info: Reusing file C:/intelFPGA_lite/18.1/ProblemaLCD/problemaLCD/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_003"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/intelFPGA_lite/18.1/ProblemaLCD/problemaLCD/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/intelFPGA_lite/18.1/ProblemaLCD/problemaLCD/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: problemaLCD: Done "problemaLCD" with 33 modules, 46 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
